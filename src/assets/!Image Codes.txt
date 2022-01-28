@@ -1,0 +1,20 @@
+Part ID Breakdown (20 character IDs) ?-##-**-$$-%%-!!-@@@
+?: Identifier
+A: Arms, H: Head, L: Legs, T: Torso, W: Waist, X: Accessory, P: Pet
+
+BODY PARTS (##)
+00: Nothing, 10: Accessory, 11: Accessory (Back), 20: Arms, 22: Arms (Back), 30: Head, 33: Head (Back), 40: Legs, 44: Legs (Back), 50: Torso, 55: Torso (Back), 60: Waist, 66: Waist (Back), 70: Pet, 77: Pet (Back)
+
+SPECIES (**)
+00: Default (Stick), 10: Sensei, 20: Human (Male), 30: Human (Female), 40: Human (Misc), 50: Monster (Fuzzy)
+
+FIGHTER ($$)
+00: Default, 10: Sensei, 20: Martial Artist, 30: Gunslinger, 40: Magic User, 50: Monster
+
+MAIN COLOR (%)
+00: Black, 10: White, 20: Red, 30: Green, 40: Blue, 50: Brown, 60: Yellow, 70: Purple, 80: Orange
+
+SECONDARY COLOR (!!)
+00: Black, 10: White, 20: Red, 30: Green, 40: Blue, 50: Brown, 60: Yellow, 70: Purple, 80: Orange
+
+MISCELLANEOUS (@@@)

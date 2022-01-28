@@ -1,0 +1,229 @@
+/* Main CSS */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.playableScreen {
+  position: relative;
+  top: 100px;
+  left: auto;
+  margin: .5em;
+}
+
+.headers {
+  font-size: 1.5em;
+  position: relative;
+  top: 75px;
+}
+
+.main-logo {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  padding: none;
+}
+
+/* Login CSS */
+.sign-up-container {
+  margin-top: 15%;
+  max-width: 680px;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.middle {
+  position: relative;
+  top: 150px;
+  left: 200px;
+  font-size: 256px;
+}
+
+/* About Us CSS */
+.about-display {
+  width: 300px;
+  height: 150px;
+}
+
+.icon {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+td.stat {
+  width: 120px;
+  height: 120px;
+  border-width: 2px;
+}
+
+.credits {
+  font-size: small;
+  font-weight: bold;
+  color: black;
+}
+
+/* Sign Up CSS */
+.signup-avatar-window {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 400px;
+  height: 400px;
+}
+
+.signup-body-part {
+  display: block;
+  position: absolute;
+  left: 25px;
+  width: auto;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-avatar-drops {
+  position: absolute;
+  top: 150px;
+  left: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dojo CSS */
+.avatar-window {
+  position: relative;
+  top: 5px;
+  left: 825px;
+  width: 600px;
+  height: 600px;
+}
+
+.body-part {
+  display: block;
+  position: absolute;
+  left: 50px;
+  width: auto;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-drops {
+  position: absolute;
+  top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  font-size: 30px;
+  margin: auto;
+  width: 50%;
+  padding: 1.5em;
+}
+
+.moveset-select {
+  width: 800px;
+  padding: 1em;
+}
+
+/* Arena CSS */
+.battle-avatar-window {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  width: 400px;
+  height: 400px;
+}
+
+.choose-move {
+  position: relative;
+  top: 225px;
+  left: 75px;
+}
+
+.opponent-avatar-window {
+  position: absolute;
+  top: 5px;
+  left: 725px;
+  width: 400px;
+  height: 400px;
+}
+
+.opponent-move {
+  position: relative;
+  top: 50px;
+  left: 775px;
+}
+
+.fight-begin {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.battle-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.battle-body-part {
+  display: block;
+  position: absolute;
+  left: 50px;
+  width: auto;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.battle-body-head {
+  z-index: 3;
+}
+
+.battle-body-torso {
+  z-index: 2;
+}
+
+.battle-body-arms {
+  z-index: 1;
+}
+
+.battle-body-waist {
+  z-index: 3;
+}
+
+.battle-body-legs {
+  z-index: 2;
+}
+
+/* Media queries */
+@media screen and (max-width: 992px) {
+  .setupScreen {
+    width: 100%;
+    font-size: 4em;
+    background-color: aquamarine;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .setupScreen {
+    width: 100%;
+    font-size: 2em;
+    background-color: blueviolet;
+  }
+}

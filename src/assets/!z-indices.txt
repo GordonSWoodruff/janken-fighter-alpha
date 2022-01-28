@@ -1,0 +1,6 @@
+(All back layers) z-index: -2
+(Arms) z-index: -1   (Back Arms) z-index: -2
+(Head) z-index: 1   (Back Head) z-index: -1
+(Legs) z-index: 2   (Back Legs) z-index: -2
+(Torso) z-index: 0   (Back Torso) z-index: -3
+(Waist) z-index: 1   (Back Waist) z-index: -2

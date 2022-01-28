@@ -1,0 +1,16 @@
+Move ID Breakdown (16 character IDs) ?-##-$$-%%%-@@@@
+?: Identifier
+C: Chisei Move, K: Ken Move, S: Seishin Move, P: Surprise Move, Z: Super Move
+
+ATTACK TYPE (##)
+10: Punch, 20: Kick, 30: Projectile, 40: Throw, 50: Slice, 60: Stab, 70: Crush, 80: Tail, 90: Cloud, A0: Bomb
+
+ANIMATION ($$)
+FUTURE
+
+BOOST (%%%)
+000: Nothing
+100: +1 to Base Move Stat
+999: +1000 to All Stats
+
+COMBINATIONS (@@@@)
